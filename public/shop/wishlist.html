@@ -23,18 +23,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!-- CSS
   ================================================== -->
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/font-awesome.min.css"/>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="css/fotorama.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/fotorama.css">
-<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/magnific-popup.css">
-<link rel="stylesheet" type="text/css" href="css/custom.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/custom.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/responsive.css">
-<link rel="shortcut icon" href="images/favicon.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/favicon.png">
-<link rel="apple-touch-icon" href="images/apple-touch-icon.png.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/apple-touch-icon.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/apple-touch-icon-114x114.png">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/fotorama.css">
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+<link rel="stylesheet" type="text/css" href="css/custom.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="shortcut icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png.css">
+<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png.css">
+<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png.css">
 </head>
 <body >
 <div class="se-pre-con"></div>
@@ -68,12 +68,12 @@
                   <a class="content-link">
                   <span class="content-icon"></span> 
                   </a> 
-                  <a href="login.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/login.html" title="Login">Login</a> or
-                  <a href="register.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/register.html" title="Register">Register</a>
+                  <a href="login.html" title="Login">Login</a> or
+                  <a href="register.html" title="Register">Register</a>
                   <div class="content-dropdown">
                     <ul>
-                      <li class="login-icon"><a href="login.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/login.html" title="Login"><i class="fa fa-user"></i> Login</a></li>
-                      <li class="register-icon"><a href="register.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/register.html" title="Register"><i class="fa fa-user-plus"></i> Register</a></li>
+                      <li class="login-icon"><a href="login.html" title="Login"><i class="fa fa-user"></i> Login</a></li>
+                      <li class="register-icon"><a href="register.html" title="Register"><i class="fa fa-user-plus"></i> Register</a></li>
                     </ul>
                   </div>
                 </li>
@@ -96,8 +96,8 @@
           <div class="col-xl-3 col-md-3 col-xl-20per">
             <div class="header-middle-left">
               <div class="navbar-header float-none-sm">
-                <a class="navbar-brand page-scroll" href="index.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html">
-                  <img alt="Stylexpo" src="images/logo.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/logo.png">
+                <a class="navbar-brand page-scroll" href="index.html">
+                  <img alt="Stylexpo" src="images/logo.png">
                 </a> 
               </div>
             </div>
@@ -157,12 +157,12 @@
             <div class="right-side float-left-xs header-right-link">
               <ul>
                 <li class="compare-icon">
-                  <a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html">
+                  <a href="compare.html">
                     <span></span>
                   </a>
                 </li>
                 <li class="wishlist-icon">
-                  <a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html">
+                  <a href="wishlist.html">
                     <span></span>
                   </a>
                 </li>
@@ -173,7 +173,7 @@
                   <div class="cart-dropdown header-link-dropdown">
                     <ul class="cart-list link-dropdown-list">
                       <li> <a class="close-cart"><i class="fa fa-times-circle"></i></a>
-                        <div class="media"> <a class="pull-left"> <img alt="Stylexpo" src="images/1.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/1.jpg"></a>
+                        <div class="media"> <a class="pull-left"> <img alt="Stylexpo" src="images/1.jpg"></a>
                           <div class="media-body"> <span><a href="#">Black African Print Skirt</a></span>
                             <p class="cart-price">$14.99</p>
                             <div class="product-qty">
@@ -186,7 +186,7 @@
                         </div>
                       </li>
                       <li> <a class="close-cart"><i class="fa fa-times-circle"></i></a>
-                        <div class="media"> <a class="pull-left"> <img alt="Stylexpo" src="images/2.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/2.jpg"></a>
+                        <div class="media"> <a class="pull-left"> <img alt="Stylexpo" src="images/2.jpg"></a>
                           <div class="media-body"> <span><a href="#">Black African Print Skirt</a></span>
                             <p class="cart-price">$14.99</p>
                             <div class="product-qty">
@@ -201,7 +201,7 @@
                     </ul>
                     <p class="cart-sub-totle"> <span class="pull-left">Cart Subtotal</span> <span class="pull-right"><strong class="price-box">$29.98</strong></span> </p>
                     <div class="clearfix"></div>
-                    <div class="mt-20"> <a href="cart.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/cart.html" class="btn-color btn">Cart</a> <a href="checkout.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/checkout.html" class="btn-color btn right-side">Checkout</a> </div>
+                    <div class="mt-20"> <a href="cart.html" class="btn-color btn">Cart</a> <a href="checkout.html" class="btn-color btn right-side">Checkout</a> </div>
                   </div>
                 </li>
                 <li class="side-toggle">
@@ -228,12 +228,12 @@
                           <a class="content-link">
                           <span class="content-icon"></span> 
                           </a> 
-                          <a href="login.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/login.html" title="Login">Login</a> or
-                          <a href="register.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/register.html" title="Register">Register</a>
+                          <a href="login.html" title="Login">Login</a> or
+                          <a href="register.html" title="Register">Register</a>
                           <div class="content-dropdown">
                             <ul>
-                              <li class="login-icon"><a href="login.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/login.html" title="Login"><i class="fa fa-user"></i> Login</a></li>
-                              <li class="register-icon"><a href="register.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/register.html" title="Register"><i class="fa fa-user-plus"></i> Register</a></li>
+                              <li class="login-icon"><a href="login.html" title="Login"><i class="fa fa-user"></i> Login</a></li>
+                              <li class="register-icon"><a href="register.html" title="Register"><i class="fa fa-user-plus"></i> Register</a></li>
                             </ul>
                           </div>
                         </li>
@@ -248,22 +248,22 @@
                     <ul class="nav navbar-nav ">
                       <li class="level sub-megamenu">
                         <span class="opener plus"></span>
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-female"></i>Fashion</a>
+                        <a href="shop.html" class="page-scroll"><i class="fa fa-female"></i>Fashion</a>
                         <div class="megamenu mobile-sub-menu "  style="width:430px;">
                           <div class="megamenu-inner-top">
                             <ul class="sub-menu-level1">
                               <li class="level2">
-                                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Kids Fashion</span></a>
+                                <a href="shop.html"><span>Kids Fashion</span></a>
                                 <ul class="sub-menu-level2 ">
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Blazer & Coat</a></li>
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Shoes</a></li>
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Trousers</a></li>
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Purse</a></li>
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Wallets</a></li>
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Skirts</a></li>
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Tops</a></li>
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sleepwear</a></li>
-                                  <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Jeans</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Blazer & Coat</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Sport Shoes</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Trousers</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Purse</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Wallets</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Skirts</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Tops</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Sleepwear</a></li>
+                                  <li class="level3"><a href="shop.html"><span>■</span>Jeans</a></li>
                                 </ul>
                               </li>
                               <li  class="level2">
@@ -272,8 +272,8 @@
                                     <div class="owl-carousel sub_menu_slider">
                                       <div class="product-item">
                                         <div class="product-image"> 
-                                          <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> 
-                                            <img src="images/2.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/2.jpg" alt="Stylexpo"> 
+                                          <a href="product-page.html">
+                                            <img src="images/2.jpg" alt="Stylexpo">
                                           </a>
                                           <div class="product-detail-inner">
                                             <div class="detail-inner-left align-center">
@@ -283,14 +283,14 @@
                                                     <button title="Add to Cart"><span></span></button>
                                                   </form>
                                                 </li>
-                                                <li class="pro-wishlist-icon"><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                                                <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                                                <li class="pro-wishlist-icon"><a href="wishlist.html" title="Wishlist"></a></li>
+                                                <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                                               </ul>
                                             </div>
                                           </div>
                                         </div>
                                         <div class="product-item-details">
-                                          <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> 
+                                          <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a>
                                           </div>
                                           <div class="price-box"> <span class="price">$80.00</span>  
                                           </div>
@@ -301,8 +301,8 @@
                                       </div>
                                       <div class="product-item">
                                         <div class="product-image"> 
-                                          <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> 
-                                            <img src="images/6.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/6.jpg" alt="Stylexpo"> 
+                                          <a href="product-page.html">
+                                            <img src="images/6.jpg" alt="Stylexpo">
                                           </a>
                                           <div class="product-detail-inner">
                                             <div class="detail-inner-left align-center">
@@ -312,14 +312,14 @@
                                                     <button title="Add to Cart"><span></span></button>
                                                   </form>
                                                 </li>
-                                                <li class="pro-wishlist-icon"><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                                                <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                                                <li class="pro-wishlist-icon"><a href="wishlist.html" title="Wishlist"></a></li>
+                                                <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                                               </ul>
                                             </div>
                                           </div>
                                         </div>
                                         <div class="product-item-details">
-                                          <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                                          <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                                           <div class="price-box"> <span class="price">$80.00</span>              
                                           </div>
                                           <div class="rating-summary-block right-side">
@@ -329,8 +329,8 @@
                                       </div>
                                       <div class="product-item">
                                         <div class="product-image"> 
-                                          <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> 
-                                            <img src="images/8.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/8.jpg" alt="Stylexpo"> 
+                                          <a href="product-page.html">
+                                            <img src="images/8.jpg" alt="Stylexpo">
                                           </a>
                                           <div class="product-detail-inner">
                                             <div class="detail-inner-left align-center">
@@ -340,14 +340,14 @@
                                                     <button title="Add to Cart"><span></span></button>
                                                   </form>
                                                 </li>
-                                                <li class="pro-wishlist-icon"><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                                                <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                                                <li class="pro-wishlist-icon"><a href="wishlist.html" title="Wishlist"></a></li>
+                                                <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                                               </ul>
                                             </div>
                                           </div>
                                         </div>
                                         <div class="product-item-details">
-                                          <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                                          <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                                           <div class="price-box"> <span class="price">$80.00</span>  
                                           </div>
                                           <div class="rating-summary-block right-side">
@@ -357,8 +357,8 @@
                                       </div>
                                       <div class="product-item">
                                         <div class="product-image"> 
-                                          <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> 
-                                            <img src="images/10.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/10.jpg" alt="Stylexpo"> 
+                                          <a href="product-page.html">
+                                            <img src="images/10.jpg" alt="Stylexpo">
                                           </a>
                                           <div class="product-detail-inner">
                                             <div class="detail-inner-left align-center">
@@ -368,14 +368,14 @@
                                                     <button title="Add to Cart"><span></span></button>
                                                   </form>
                                                 </li>
-                                                <li class="pro-wishlist-icon"><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                                                <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                                                <li class="pro-wishlist-icon"><a href="wishlist.html" title="Wishlist"></a></li>
+                                                <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                                               </ul>
                                             </div>
                                           </div>                  
                                         </div>
                                         <div class="product-item-details">
-                                          <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                                          <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                                           <div class="price-box"> <span class="price">$80.00</span> 
                                           </div>
                                           <div class="rating-summary-block right-side">
@@ -385,8 +385,8 @@
                                       </div>
                                       <div class="product-item">
                                         <div class="product-image"> 
-                                          <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> 
-                                            <img src="images/16.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/16.jpg" alt="Stylexpo"> 
+                                          <a href="product-page.html">
+                                            <img src="images/16.jpg" alt="Stylexpo">
                                           </a>
                                           <div class="product-detail-inner">
                                             <div class="detail-inner-left align-center">
@@ -396,14 +396,14 @@
                                                     <button title="Add to Cart"><span></span></button>
                                                   </form>
                                                 </li>
-                                                <li class="pro-wishlist-icon"><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                                                <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                                                <li class="pro-wishlist-icon"><a href="wishlist.html" title="Wishlist"></a></li>
+                                                <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                                               </ul>
                                             </div>
                                           </div>
                                         </div>
                                         <div class="product-item-details">
-                                          <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                                          <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                                           <div class="price-box"> <span class="price">$80.00</span>
                                           </div>
                                           <div class="rating-summary-block right-side">
@@ -420,44 +420,44 @@
                         </div>
                       </li>
                       <li class="level">
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-camera-retro"></i>Cameras</a>
+                        <a href="shop.html" class="page-scroll"><i class="fa fa-camera-retro"></i>Cameras</a>
                       </li>
                       <li class="level">
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll">
+                        <a href="shop.html" class="page-scroll">
                           <i class="fa fa-desktop"></i>computers<div class="menu-label"><span class="hot-menu"> Hot </span></div> 
                         </a>
                       </li>
                       <li class="level sub-megamenu">
                         <span class="opener plus"></span>
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-clock-o"></i>Wathches</a>
+                        <a href="shop.html" class="page-scroll"><i class="fa fa-clock-o"></i>Wathches</a>
                           <div class="megamenu mobile-sub-menu" style="width:775px;" >
                             <div class="megamenu-inner-top">
                               <ul class="sub-menu-level1">
                                 <li class="level2">
-                                  <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Men Fashion</span></a>
+                                  <a href="shop.html"><span>Men Fashion</span></a>
                                   <ul class="sub-menu-level2">
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Dresses</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Jeans</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Skirts</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Tops</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sleepwear</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Jeans</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Dresses</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Sport Jeans</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Skirts</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Tops</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Sleepwear</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Jeans</a></li>
                                   </ul>
                                 </li>
                                 <li class="level2">
-                                  <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Women Fashion</span></a>
+                                  <a href="shop.html"><span>Women Fashion</span></a>
                                   <ul class="sub-menu-level2 ">
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Blazer & Coat</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Shoes</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Phone Cases</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Trousers</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Purse</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Wallets</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Blazer & Coat</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Sport Shoes</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Phone Cases</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Trousers</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Purse</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Wallets</a></li>
                                   </ul>
                                 </li>
                                 <li class="level2 d-none d-lg-block">
-                                  <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html">
-                                    <img src="images/drop_banner.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/drop_banner.jpg" alt="Stylexpo">
+                                  <a href="shop.html">
+                                    <img src="images/drop_banner.jpg" alt="Stylexpo">
                                   </a>
                                 </li>
                               </ul>
@@ -465,47 +465,47 @@
                           </div>
                       </li>
                       <li class="level">
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll">
+                        <a href="shop.html" class="page-scroll">
                           <i class="fa fa-shopping-bag"></i>Bags<div class="menu-label"><span class="new-menu"> New </span></div>
                         </a>
                       </li>
                       <li class="level sub-megamenu ">
                         <span class="opener plus"></span>
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-tablet"></i>Smartphones</a>
+                        <a href="shop.html" class="page-scroll"><i class="fa fa-tablet"></i>Smartphones</a>
                         <div class="megamenu mobile-sub-menu"  style="width:630px;">
                             <div class="megamenu-inner-top">
                               <ul class="sub-menu-level1">
                                 <li class="level2">
-                                  <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Women Clothings</span></a>
+                                  <a href="shop.html"><span>Women Clothings</span></a>
                                   <ul class="sub-menu-level2">
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Dresses</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Jeans</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Skirts</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Tops</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sleepwear</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Jeans</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Dresses</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Sport Jeans</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Skirts</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Tops</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Sleepwear</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Jeans</a></li>
                                   </ul>
                                 </li>
                                 <li class="level2">
-                                  <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Men Clothings</span></a>
+                                  <a href="shop.html"><span>Men Clothings</span></a>
                                   <ul class="sub-menu-level2 ">
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Blazer & Coat</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Shoes</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Phone Cases</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Trousers</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Purse</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Wallets</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Blazer & Coat</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Sport Shoes</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Phone Cases</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Trousers</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Purse</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Wallets</a></li>
                                   </ul>
                                 </li>
                                 <li class="level2">
-                                  <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Juniors kid</span></a>
+                                  <a href="shop.html"><span>Juniors kid</span></a>
                                   <ul class="sub-menu-level2 ">
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Blazer & Coat</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Shoes</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Phone Cases</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Trousers</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Purse</a></li>
-                                    <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Wallets</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Blazer & Coat</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Sport Shoes</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Phone Cases</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Trousers</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Purse</a></li>
+                                    <li class="level3"><a href="shop.html"><span>■</span>Wallets</a></li>
                                   </ul>
                                 </li>
                               </ul>
@@ -513,17 +513,17 @@
                         </div>
                       </li>
                       <li class="level">
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-bed"></i>Home & Furniture</a>
+                        <a href="shop.html" class="page-scroll"><i class="fa fa-bed"></i>Home & Furniture</a>
                       </li>
-                      <li class="level "><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-headphones"></i>Headphone</a></li>
+                      <li class="level "><a href="shop.html" class="page-scroll"><i class="fa fa-headphones"></i>Headphone</a></li>
                       <li class="level">
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-microphone"></i>Accessories</a>
+                        <a href="shop.html" class="page-scroll"><i class="fa fa-microphone"></i>Accessories</a>
                       </li>
                       <li class="level">
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-heartbeat"></i>Beauty & Health</a>
+                        <a href="shop.html" class="page-scroll"><i class="fa fa-heartbeat"></i>Beauty & Health</a>
                       </li>
-                      <li class="level"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-bolt"></i>Printers & Ink</a></li>
-                      <li class="level"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-plus-square"></i>More Categories</a></li>
+                      <li class="level"><a href="shop.html" class="page-scroll"><i class="fa fa-bolt"></i>Printers & Ink</a></li>
+                      <li class="level"><a href="shop.html" class="page-scroll"><i class="fa fa-plus-square"></i>More Categories</a></li>
                     </ul>
                     <div class="header-top mobile">
                       <div class="">
@@ -568,19 +568,19 @@
                   <div class="mobilemenu-content">
                     <ul class="nav navbar-nav" id="menu-main">
                       <li>
-                        <a href="index.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html"><span>Home</span></a>
+                        <a href="index.html"><span>Home</span></a>
                       </li>
                       <li>
-                        <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Shop</span></a>
+                        <a href="shop.html"><span>Shop</span></a>
                       </li>
                       <li>
-                        <a href="about.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/about.html"><span>About Us</span></a>
+                        <a href="about.html"><span>About Us</span></a>
                       </li>
                       <li>
-                        <a href="blog.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/blog.html"><span>Blog</span></a>
+                        <a href="blog.html"><span>Blog</span></a>
                       </li>
                       <li>
-                        <a href="contact.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/contact.html"><span>Contact</span></a>
+                        <a href="contact.html"><span>Contact</span></a>
                       </li>
                       <li class="level dropdown ">
                         <span class="opener plus"></span>
@@ -590,13 +590,13 @@
                             <ul class="sub-menu-level1">
                               <li class="level2">
                                 <ul class="sub-menu-level2 ">
-                                  <li class="level3"><a href="account.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/account.html"><span>■</span>Account</a></li>
-                                  <li class="level3"><a href="checkout.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/checkout.html"><span>■</span>Checkout</a></li>
-                                  <li class="level3"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html"><span>■</span>Compare</a></li>
-                                  <li class="level3"><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html"><span>■</span>Wishlist</a></li>
-                                  <li class="level3"><a href="404.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/404.html"><span>■</span>404 Error</a></li>
-                                  <li class="level3"><a href="single-blog.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/single-blog.html"><span>■</span>Single Blog</a></li>
-                                  <li class="level3"><a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"><span>■</span>Product Details</a></li>
+                                  <li class="level3"><a href="account.html"><span>■</span>Account</a></li>
+                                  <li class="level3"><a href="checkout.html"><span>■</span>Checkout</a></li>
+                                  <li class="level3"><a href="compare.html"><span>■</span>Compare</a></li>
+                                  <li class="level3"><a href="wishlist.html"><span>■</span>Wishlist</a></li>
+                                  <li class="level3"><a href="404.html"><span>■</span>404 Error</a></li>
+                                  <li class="level3"><a href="single-blog.html"><span>■</span>Single Blog</a></li>
+                                  <li class="level3"><a href="product-page.html"><span>■</span>Product Details</a></li>
                                 </ul>
                               </li>
                             </ul>
@@ -612,7 +612,7 @@
           <div class="col-xl-4 col-lg-3 col-xl-20per d-none d-lg-block">
             <div class="right-side float-left-xs header-right-link">
               <div class="offer-btn right-side">
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="gift-offer" >
+                <a href="shop.html" class="gift-offer" >
                   <i class="fa fa-gift"></i> Offers
                 </a>
               </div>
@@ -651,21 +651,21 @@
             <ul class="cate-inner">
               <li class="level sub-megamenu">
                 <span class="opener plus"></span>
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-female"></i>Fashion (10)</a>
+                <a href="shop.html" class="page-scroll"><i class="fa fa-female"></i>Fashion (10)</a>
                 <div class="megamenu  mega-sub-menu">
                   <div class="megamenu-inner-top">
                     <ul class="sub-menu-level1">
                       <li class="level2">
                         <ul class="sub-menu-level2 ">
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Blazer & Coat</a></li>
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Shoes</a></li>
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Trousers</a></li>
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Purse</a></li>
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Wallets</a></li>
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Skirts</a></li>
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Tops</a></li>
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sleepwear</a></li>
-                          <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Jeans</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Blazer & Coat</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Sport Shoes</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Trousers</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Purse</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Wallets</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Skirts</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Tops</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Sleepwear</a></li>
+                          <li class="level3"><a href="shop.html"><span>■</span>Jeans</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -673,31 +673,31 @@
                 </div>
               </li>
               <li class="level">
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-camera-retro"></i>Cameras (70)</a>
+                <a href="shop.html" class="page-scroll"><i class="fa fa-camera-retro"></i>Cameras (70)</a>
               </li>
               <li class="level">
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-desktop"></i>computers (10)</a>
+                <a href="shop.html" class="page-scroll"><i class="fa fa-desktop"></i>computers (10)</a>
               </li>
               <li class="level sub-megamenu">
                 <span class="opener plus"></span>
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-clock-o"></i>Wathches (15)</a>
+                <a href="shop.html" class="page-scroll"><i class="fa fa-clock-o"></i>Wathches (15)</a>
                   <div class="megamenu mega-sub-menu">
                     <div class="megamenu-inner-top">
                       <ul class="sub-menu-level1">
                         <li class="level2">
                           <ul class="sub-menu-level2">
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Dresses</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Jeans</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Skirts</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Tops</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sleepwear</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Jeans</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Blazer & Coat</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Shoes</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Phone Cases</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Trousers</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Purse</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Wallets</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Dresses</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Sport Jeans</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Skirts</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Tops</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Sleepwear</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Jeans</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Blazer & Coat</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Sport Shoes</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Phone Cases</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Trousers</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Purse</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Wallets</a></li>
                           </ul>
                         </li>
                       </ul>
@@ -705,32 +705,32 @@
                   </div>
               </li>
               <li class="level">
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-shopping-bag"></i>Bags (18)</a>
+                <a href="shop.html" class="page-scroll"><i class="fa fa-shopping-bag"></i>Bags (18)</a>
               </li>
               <li class="level sub-megamenu ">
                 <span class="opener plus"></span>
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-tablet"></i>Smartphones (20)</a>
+                <a href="shop.html" class="page-scroll"><i class="fa fa-tablet"></i>Smartphones (20)</a>
                 <div class="megamenu mega-sub-menu">
                     <div class="megamenu-inner-top">
                       <ul class="sub-menu-level1">
                         <li class="level2">
                           <ul class="sub-menu-level2">
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Dresses</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Jeans</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Skirts</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Tops</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sleepwear</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Jeans</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Dresses</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Sport Jeans</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Skirts</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Tops</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Sleepwear</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Jeans</a></li>
                           </ul>
                         </li>
                         <li class="level2">
                           <ul class="sub-menu-level2 ">
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Blazer & Coat</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Sport Shoes</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Phone Cases</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Trousers</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Purse</a></li>
-                            <li class="level3"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>■</span>Wallets</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Blazer & Coat</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Sport Shoes</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Phone Cases</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Trousers</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Purse</a></li>
+                            <li class="level3"><a href="shop.html"><span>■</span>Wallets</a></li>
                           </ul>
                         </li>
                       </ul>
@@ -738,14 +738,14 @@
                 </div>
               </li>
               <li class="level">
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-heart"></i>Software</a>
+                <a href="shop.html" class="page-scroll"><i class="fa fa-heart"></i>Software</a>
               </li>
-              <li class="level "><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-headphones"></i>Headphone (12)</a></li>
+              <li class="level "><a href="shop.html" class="page-scroll"><i class="fa fa-headphones"></i>Headphone (12)</a></li>
               <li class="level">
-                <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-microphone"></i>Accessories (70)</a>
+                <a href="shop.html" class="page-scroll"><i class="fa fa-microphone"></i>Accessories (70)</a>
               </li>
-              <li class="level"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-bolt"></i>Printers & Ink</a></li>
-              <li class="level"><a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="page-scroll"><i class="fa fa-plus-square"></i>More Categories</a></li>
+              <li class="level"><a href="shop.html" class="page-scroll"><i class="fa fa-bolt"></i>Printers & Ink</a></li>
+              <li class="level"><a href="shop.html" class="page-scroll"><i class="fa fa-plus-square"></i>More Categories</a></li>
             </ul>
           </div>  
         </div>
@@ -757,7 +757,7 @@
             <div class="cart-dropdown ">
               <ul class="cart-list link-dropdown-list">
                 <li> <a class="close-cart"><i class="fa fa-times-circle"></i></a>
-                  <div class="media"> <a class="pull-left"> <img alt="Stylexpo" src="images/1.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/1.jpg"></a>
+                  <div class="media"> <a class="pull-left"> <img alt="Stylexpo" src="images/1.jpg"></a>
                     <div class="media-body"> <span><a href="#">Black African Print Skirt</a></span>
                       <p class="cart-price">$14.99</p>
                       <div class="product-qty">
@@ -770,7 +770,7 @@
                   </div>
                 </li>
                 <li> <a class="close-cart"><i class="fa fa-times-circle"></i></a>
-                  <div class="media"> <a class="pull-left"> <img alt="Stylexpo" src="images/2.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/2.jpg"></a>
+                  <div class="media"> <a class="pull-left"> <img alt="Stylexpo" src="images/2.jpg"></a>
                     <div class="media-body"> <span><a href="#">Black African Print Skirt</a></span>
                       <p class="cart-price">$14.99</p>
                       <div class="product-qty">
@@ -785,7 +785,7 @@
               </ul>
               <p class="cart-sub-totle"> <span class="pull-left">Cart Subtotal</span> <span class="pull-right"><strong class="price-box">$29.98</strong></span> </p>
               <div class="clearfix"></div>
-              <div class="mt-20"> <a href="cart.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/cart.html" class="btn-color btn">Cart</a> <a href="checkout.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/checkout.html" class="btn-color btn right-side">Checkout</a> </div>
+              <div class="mt-20"> <a href="cart.html" class="btn-color btn">Cart</a> <a href="checkout.html" class="btn-color btn right-side">Checkout</a> </div>
             </div>
           </div>
         </div>
@@ -796,7 +796,7 @@
           <div class="popup-detail">
             <div class="row">
               <div class="col-lg-4">
-                <a href="account.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/account.html">
+                <a href="account.html">
                   <div class="account-inner mb-30">
                     <i class="fa fa-user"></i><br/>
                     <span>Account</span>
@@ -804,7 +804,7 @@
                 </a>
               </div>
               <div class="col-lg-4">
-                <a href="register.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/register.html">
+                <a href="register.html">
                   <div class="account-inner mb-30">
                     <i class="fa fa-user-plus"></i><br/>
                     <span>Register</span>
@@ -812,7 +812,7 @@
                 </a>
               </div>
               <div class="col-lg-4">
-                <a href="cart.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/cart.html">
+                <a href="cart.html">
                   <div class="account-inner mb-30">
                     <i class="fa fa-shopping-bag"></i><br/>
                     <span>Shopping</span>
@@ -820,7 +820,7 @@
                 </a>
               </div>
               <div class="col-lg-4">
-                <a href="account.html#step4" tppabs="http://aaryaweb.info/html/stylexpo/stx004/account.html#step4">
+                <a href="account.html#step4">
                   <div class="account-inner">
                     <i class="fa fa-key"></i><br/>
                     <span>Change Pass</span>
@@ -828,7 +828,7 @@
                 </a>
               </div>
               <div class="col-lg-4">
-                <a href="account.html#step3" tppabs="http://aaryaweb.info/html/stylexpo/stx004/account.html#step3">
+                <a href="account.html#step3">
                   <div class="account-inner">
                     <i class="fa fa-history"></i><br/>
                     <span>history</span>
@@ -836,7 +836,7 @@
                 </a>
               </div>
               <div class="col-lg-4">
-                <a href="login.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/login.html">
+                <a href="login.html">
                   <div class="account-inner">
                     <i class="fa fa-share-square-o"></i><br/>
                     <span>log out</span>
@@ -875,7 +875,7 @@
         <h1 class="banner-title">Wishlist</h1>
         <div class="bread-crumb right-side float-none-xs">
           <ul>
-            <li><a href="index.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html">Home</a>/</li>
+            <li><a href="index.html">Home</a>/</li>
             <li><span>Wishlist</span></li>
           </ul>
         </div>
@@ -905,13 +905,13 @@
                 <tbody>
                   <tr>
                     <td>
-                      <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">
-                      <div class="product-image"><img alt="Stylexpo" src="images/1.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/1.jpg"></div>
+                      <a href="product-page.html">
+                      <div class="product-image"><img alt="Stylexpo" src="images/1.jpg"></div>
                       </a>
                     </td>
                     <td>
                       <div class="product-title"> 
-                        <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Cross Colours Camo Print Tank half mengo</a>
+                        <a href="product-page.html">Cross Colours Camo Print Tank half mengo</a>
                         <div class="size-text">SIZE:large  <br> <span>PRODUCT ID:0088746</span></div> 
                       </div>
                     </td>
@@ -940,7 +940,7 @@
                       </div>
                     </td>
                     <td>
-                      <a href="cart.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/cart.html">
+                      <a href="cart.html">
                         <i title="Shopping Cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
                       </a> 
                       <i title="Remove Item From Cart" data-id="100" class="fa fa-trash cart-remove-item"></i>
@@ -948,13 +948,13 @@
                   </tr>
                   <tr>
                     <td>
-                      <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">
-                        <div class="product-image"><img alt="Stylexpo" src="images/2.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/2.jpg"></div>
+                      <a href="product-page.html">
+                        <div class="product-image"><img alt="Stylexpo" src="images/2.jpg"></div>
                       </a>
                     </td>
                     <td>
                      <div class="product-title"> 
-                        <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a>
+                        <a href="product-page.html">Defyant Reversible Dot Shorts</a>
                         <div class="size-text">SIZE:large  <br> <span>PRODUCT ID:0088746</span></div> 
                       </div>
                     </td>
@@ -983,7 +983,7 @@
                       </div>
                     </td>
                     <td>
-                      <a href="cart.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/cart.html">
+                      <a href="cart.html">
                         <i title="Shopping Cart" class="fa fa-shopping-cart" aria-hidden="true"></i>
                       </a>  
                       <i title="Remove Item From Cart" data-id="100" class="fa fa-trash cart-remove-item"></i>
@@ -999,7 +999,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="mt-30"> 
-              <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="btn btn-color">
+              <a href="shop.html" class="btn btn-color">
                 <span><i class="fa fa-angle-left"></i></span>Continue Shopping
               </a> 
             </div>
@@ -1019,8 +1019,8 @@
             <div class="col-xl-3 f-col">
               <div class="footer-static-block"> <span class="opener plus"></span>
                 <div class="f-logo"> 
-                  <a href="index.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html" class=""> 
-                    <img src="images/footer-logo.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/footer-logo.png" alt="Stylexpo"> 
+                  <a href="index.html" class="">
+                    <img src="images/footer-logo.png" alt="Stylexpo">
                   </a> 
                 </div>
                 <div class="footer-block-contant">
@@ -1111,11 +1111,11 @@
             <div class="col-12 ">
               <div class="payment">
                 <ul class="payment_icon">
-                  <li class="visa"><a href="#"><img src="images/pay1.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay1.png" alt="Stylexpo"></a></li>
-                  <li class="discover"><a href="#"><img src="images/pay2.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay2.png" alt="Stylexpo"></a></li>
-                  <li class="paypal"><a href="#"><img src="images/pay3.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay3.png" alt="Stylexpo"></a></li>
-                  <li class="vindicia"><a href="#"><img src="images/pay4.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay4.png" alt="Stylexpo"></a></li>
-                  <li class="atos"><a href="#"><img src="images/pay5.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay5.png" alt="Stylexpo"></a></li>
+                  <li class="visa"><a href="#"><img src="images/pay1.png" alt="Stylexpo"></a></li>
+                  <li class="discover"><a href="#"><img src="images/pay2.png" alt="Stylexpo"></a></li>
+                  <li class="paypal"><a href="#"><img src="images/pay3.png" alt="Stylexpo"></a></li>
+                  <li class="vindicia"><a href="#"><img src="images/pay4.png" alt="Stylexpo"></a></li>
+                  <li class="atos"><a href="#"><img src="images/pay5.png" alt="Stylexpo"></a></li>
                 </ul>
               </div>
             </div>
@@ -1129,14 +1129,14 @@
   </div>
   <!-- FOOTER END -->   
 </div>
-<script src="js/jquery-1.12.3.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery-1.12.3.min.js"></script> 
-<script src="../../../../cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" tppabs="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-<script src="js/bootstrap.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/bootstrap.min.js"></script>  
-<script src="js/jquery.downCount.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery.downCount.js"></script>
-<script src="js/jquery-ui.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery-ui.min.js"></script> 
-<script src="js/fotorama.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/fotorama.js"></script>
-<script src="js/jquery.magnific-popup.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery.magnific-popup.js"></script> 
-<script src="js/owl.carousel.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/owl.carousel.min.js"></script>  
-<script src="js/custom.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/custom.js"></script>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="../../../../cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.downCount.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/fotorama.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>

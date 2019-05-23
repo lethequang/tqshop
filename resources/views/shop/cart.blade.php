@@ -7,7 +7,7 @@
       <h1 class="banner-title">Shopping Cart</h1>
       <div class="bread-crumb right-side float-none-xs">
         <ul>
-          <li><a href="index.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html">Home</a>/</li>
+          <li><a href="index.html">Home</a>/</li>
           <li><span>Shopping Cart</span></li>
         </ul>
       </div>
@@ -37,15 +37,15 @@
               <tbody>
                 <tr>
                   <td>
-                    <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">
+                    <a href="product-page.html">
                       <div class="product-image">
-                        <img alt="Stylexpo" src="shop/images/1.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/1.jpg">
+                        <img alt="Stylexpo" src="shop/images/1.jpg">
                       </div>
                     </a>
                   </td>
                   <td>
                     <div class="product-title">
-                      <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Cross Colours Camo Print Tank half mengo</a>
+                      <a href="product-page.html">Cross Colours Camo Print Tank half mengo</a>
                     </div>
                   </td>
                   <td>
@@ -80,15 +80,15 @@
                 </tr>
                 <tr>
                   <td>
-                    <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">
+                    <a href="product-page.html">
                       <div class="product-image">
-                        <img alt="Stylexpo" src="shop/images/2.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/2.jpg">
+                        <img alt="Stylexpo" src="shop/images/2.jpg">
                       </div>
                     </a>
                   </td>
                   <td>
                     <div class="product-title">
-                      <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a>
+                      <a href="product-page.html">Defyant Reversible Dot Shorts</a>
                     </div>
                   </td>
                   <td>
@@ -131,7 +131,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="mt-30">
-            <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html" class="btn btn-color">
+            <a href="shop.html" class="btn btn-color">
               <span><i class="fa fa-angle-left"></i></span>
               Continue Shopping
             </a>
@@ -236,7 +236,7 @@
       <div class="row">
         <div class="col-12">
           <div class="right-side float-none-xs">
-            <a href="checkout.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/checkout.html" class="btn btn-color">Proceed to checkout
+            <a href="checkout.html" class="btn btn-color">Proceed to checkout
               <span><i class="fa fa-angle-right"></i></span>
             </a>
           </div>

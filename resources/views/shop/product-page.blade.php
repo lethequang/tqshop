@@ -7,7 +7,7 @@
         <h1 class="banner-title">Women</h1>
         <div class="bread-crumb right-side float-none-xs">
           <ul>
-            <li><a href="index.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html">Home</a>/</li>
+            <li><a href="index.html">Home</a>/</li>
             <li><span>Women</span></li>
           </ul>
         </div>
@@ -23,7 +23,7 @@
         <div class="col-lg-9">
           <div class="row">
             <div class="col-lg-5 col-md-5 mb-xs-30">
-              <div class="fotorama" data-nav="thumbs" data-allowfullscreen="native"> <a href="#"><img src="shop/images/1.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/1.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/2.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/2.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/3.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/3.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/4.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/4.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/5.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/5.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/6.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/6.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/4.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/4.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/5.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/5.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/6.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/6.jpg" alt="Stylexpo"></a> </div>
+              <div class="fotorama" data-nav="thumbs" data-allowfullscreen="native"> <a href="#"><img src="shop/images/1.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/2.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/3.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/4.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/5.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/6.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/4.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/5.jpg" alt="Stylexpo"></a> <a href="#"><img src="shop/images/6.jpg" alt="Stylexpo"></a> </div>
             </div>
             <div class="col-lg-7 col-md-7">
               <div class="row">
@@ -88,8 +88,8 @@
                       </div>
                       <div class="bottom-detail">
                         <ul>
-                          <li class="pro-wishlist-icon"><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html"><span></span>Wishlist</a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html"><span></span>Compare</a></li>
+                          <li class="pro-wishlist-icon"><a href="wishlist.html"><span></span>Wishlist</a></li>
+                          <li class="pro-compare-icon"><a href="compare.html"><span></span>Compare</a></li>
                           <li class="pro-email-icon"><a href="#"><span></span>Email to Friends</a></li>
                         </ul>
                       </div>
@@ -114,10 +114,10 @@
         </div>
         <div class="col-lg-3">
           <div class="brand-logo-pro align-center mb-30">
-            <img src="shop/images/brand5.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/brand5.png" alt="Stylexpo">
+            <img src="shop/images/brand5.png" alt="Stylexpo">
           </div>
           <div class="sub-banner-block align-center">
-            <img src="shop/images/pro-banner.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pro-banner.jpg" alt="Stylexpo">
+            <img src="shop/images/pro-banner.jpg" alt="Stylexpo">
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@
                         <h4>Comments<span>(2)</span></h4>
                         <ul class="comment-list mt-30">
                           <li>
-                            <div class="comment-user"> <img src="shop/images/comment-user.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/comment-user.jpg" alt="Stylexpo"> </div>
+                            <div class="comment-user"> <img src="shop/images/comment-user.jpg" alt="Stylexpo"> </div>
                             <div class="comment-detail">
                               <div class="user-name">John Doe</div>
                               <div class="post-info">
@@ -170,7 +170,7 @@
                             </div>
                             <ul class="comment-list child-comment">
                               <li>
-                                <div class="comment-user"> <img src="shop/images/comment-user.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/comment-user.jpg" alt="Stylexpo"> </div>
+                                <div class="comment-user"> <img src="shop/images/comment-user.jpg" alt="Stylexpo"> </div>
                                 <div class="comment-detail">
                                   <div class="user-name">John Doe</div>
                                   <div class="post-info">
@@ -183,7 +183,7 @@
                                 </div>
                               </li>
                               <li>
-                                <div class="comment-user"> <img src="shop/images/comment-user.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/comment-user.jpg" alt="Stylexpo"> </div>
+                                <div class="comment-user"> <img src="shop/images/comment-user.jpg" alt="Stylexpo"> </div>
                                 <div class="comment-detail">
                                   <div class="user-name">John Doe</div>
                                   <div class="post-info">
@@ -198,7 +198,7 @@
                             </ul>
                           </li>
                           <li>
-                            <div class="comment-user"> <img src="shop/images/comment-user.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/comment-user.jpg" alt="Stylexpo"> </div>
+                            <div class="comment-user"> <img src="shop/images/comment-user.jpg" alt="Stylexpo"> </div>
                             <div class="comment-detail">
                               <div class="user-name">John Doe</div>
                               <div class="post-info">
@@ -261,7 +261,7 @@
               <div class="item">
                 <div class="product-item">
                   <div class="main-label new-label"><span>New</span></div>
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/10.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/10.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/10.jpg" alt="Stylexpo"> </a>
                     <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -270,14 +270,14 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>
@@ -285,7 +285,7 @@
               <div class="item">
                 <div class="product-item">
                   <div class="main-label sale-label"><span>Sale</span></div>
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/13.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/13.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/13.jpg" alt="Stylexpo"> </a>
                     <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -294,14 +294,14 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>
@@ -310,7 +310,7 @@
                 <div class="product-item">
                   <div class="main-label new-label"><span>New</span></div>
                   <div class="main-label sale-label"><span>Sale</span></div>
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/4.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/4.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/4.jpg" alt="Stylexpo"> </a>
                     <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -319,21 +319,21 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="product-item">
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/5.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/5.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/5.jpg" alt="Stylexpo"> </a>
                     <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -342,14 +342,14 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>
@@ -357,7 +357,7 @@
               <div class="item">
                 <div class="product-item">
                   <div class="main-label sale-label"><span>Sale</span></div>
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/6.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/6.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/6.jpg" alt="Stylexpo"> </a>
                     <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -366,21 +366,21 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>
               </div>
               <div class="item">
                 <div class="product-item">
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/8.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/8.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/8.jpg" alt="Stylexpo"> </a>
                     <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -389,14 +389,14 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>
@@ -404,7 +404,7 @@
               <div class="item">
                 <div class="product-item">
                   <div class="main-label new-label"><span>New</span></div>
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/9.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/9.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/9.jpg" alt="Stylexpo"> </a>
                     <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -413,14 +413,14 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>
@@ -428,7 +428,7 @@
               <div class="item">
                 <div class="product-item">
                   <div class="main-label sale-label"><span>Sale</span></div>
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/11.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/11.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/11.jpg" alt="Stylexpo"> </a>
                     <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -437,14 +437,14 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>
@@ -453,7 +453,7 @@
                 <div class="product-item">
                   <div class="main-label new-label"><span>New</span></div>
                   <div class="main-label sale-label"><span>Sale</span></div>
-                  <div class="product-image"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html"> <img src="shop/images/2.jpg" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/2.jpg" alt="Stylexpo"> </a>
+                  <div class="product-image"> <a href="product-page.html"> <img src="shop/images/2.jpg" alt="Stylexpo"> </a>
                   <div class="product-detail-inner">
                       <div class="detail-inner-left align-center">
                         <ul>
@@ -462,14 +462,14 @@
                               <button title="Add to Cart"><span></span>Add to Cart</button>
                             </form>
                           </li>
-                          <li class="pro-wishlist-icon "><a href="wishlist.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/wishlist.html" title="Wishlist"></a></li>
-                          <li class="pro-compare-icon"><a href="compare.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/compare.html" title="Compare"></a></li>
+                          <li class="pro-wishlist-icon "><a href="wishlist.html" title="Wishlist"></a></li>
+                          <li class="pro-compare-icon"><a href="compare.html" title="Compare"></a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="product-item-details">
-                    <div class="product-item-name"> <a href="product-page.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/product-page.html">Defyant Reversible Dot Shorts</a> </div>
+                    <div class="product-item-name"> <a href="product-page.html">Defyant Reversible Dot Shorts</a> </div>
                     <div class="price-box"> <span class="price">$80.00</span> <del class="price old-price">$100.00</del> </div>
                   </div>
                 </div>

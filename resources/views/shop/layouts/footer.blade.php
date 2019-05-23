@@ -6,8 +6,8 @@
                     <div class="col-xl-3 f-col">
                         <div class="footer-static-block"> <span class="opener plus"></span>
                             <div class="f-logo">
-                                <a href="index.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html" class="">
-                                    <img src="shop/images/footer-logo.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/footer-logo.png" alt="Stylexpo">
+                                <a href="index.html" class="">
+                                    <img src="shop/images/footer-logo.png" alt="Stylexpo">
                                 </a>
                             </div>
                             <div class="footer-block-contant">
@@ -98,11 +98,11 @@
                     <div class="col-12 ">
                         <div class="payment">
                             <ul class="payment_icon">
-                                <li class="visa"><a href="#"><img src="shop/images/pay1.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay1.png" alt="Stylexpo"></a></li>
-                                <li class="discover"><a href="#"><img src="shop/images/pay2.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay2.png" alt="Stylexpo"></a></li>
-                                <li class="paypal"><a href="#"><img src="shop/images/pay3.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay3.png" alt="Stylexpo"></a></li>
-                                <li class="vindicia"><a href="#"><img src="shop/images/pay4.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay4.png" alt="Stylexpo"></a></li>
-                                <li class="atos"><a href="#"><img src="shop/images/pay5.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/pay5.png" alt="Stylexpo"></a></li>
+                                <li class="visa"><a href="#"><img src="shop/images/pay1.png" alt="Stylexpo"></a></li>
+                                <li class="discover"><a href="#"><img src="shop/images/pay2.png" alt="Stylexpo"></a></li>
+                                <li class="paypal"><a href="#"><img src="shop/images/pay3.png" alt="Stylexpo"></a></li>
+                                <li class="vindicia"><a href="#"><img src="shop/images/pay4.png" alt="Stylexpo"></a></li>
+                                <li class="atos"><a href="#"><img src="shop/images/pay5.png" alt="Stylexpo"></a></li>
                             </ul>
                         </div>
                     </div>

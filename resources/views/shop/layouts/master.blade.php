@@ -24,18 +24,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- CSS
       ================================================== -->
-    <link rel="stylesheet" type="text/css" href="shop/css/font-awesome.min.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/font-awesome.min.css"/>
-    <link rel="stylesheet" type="text/css" href="shop/css/bootstrap.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="shop/css/jquery-ui.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="shop/css/owl.carousel.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="shop/css/fotorama.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/fotorama.css">
-    <link rel="stylesheet" type="text/css" href="shop/css/magnific-popup.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/magnific-popup.css">
-    <link rel="stylesheet" type="text/css" href="shop/css/custom.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/custom.css">
-    <link rel="stylesheet" type="text/css" href="shop/css/responsive.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/css/responsive.css">
-    <link rel="shortcut icon" href="shop/images/favicon.png" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/favicon.png">
-    <link rel="apple-touch-icon" href="shop/images/apple-touch-icon.png.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="shop/images/apple-touch-icon-72x72.png.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="shop/images/apple-touch-icon-114x114.png.css" tppabs="http://aaryaweb.info/html/stylexpo/stx004/images/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" type="text/css" href="shop/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="shop/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="shop/css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="shop/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="shop/css/fotorama.css">
+    <link rel="stylesheet" type="text/css" href="shop/css/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="shop/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="shop/css/responsive.css">
+    <link rel="shortcut icon" href="shop/images/favicon.png">
+    <link rel="apple-touch-icon" href="shop/images/apple-touch-icon.png.css">
+    <link rel="apple-touch-icon" sizes="72x72" href="shop/images/apple-touch-icon-72x72.png.css">
+    <link rel="apple-touch-icon" sizes="114x114" href="shop/images/apple-touch-icon-114x114.png.css">
 
     @yield('__css')
 
@@ -76,15 +76,15 @@
     @include('shop.layouts.footer')
     <!-- FOOTER END -->
 </div>
-<script src="shop/js/jquery-1.12.3.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery-1.12.3.min.js"></script>
-<script src="shop/js/tether.min.js" tppabs="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-<script src="shop/js/bootstrap.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/bootstrap.min.js"></script>
-<script src="shop/js/jquery.downCount.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery.downCount.js"></script>
-<script src="shop/js/jquery-ui.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery-ui.min.js"></script>
-<script src="shop/js/fotorama.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/fotorama.js"></script>
-<script src="shop/js/jquery.magnific-popup.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery.magnific-popup.js"></script>
-<script src="shop/js/owl.carousel.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/owl.carousel.min.js"></script>
-<script src="shop/js/custom.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/custom.js"></script>
+<script src="shop/js/jquery-1.12.3.min.js"></script>
+<script src="shop/js/tether.min.js"></script>
+<script src="shop/js/bootstrap.min.js"></script>
+<script src="shop/js/jquery.downCount.js"></script>
+<script src="shop/js/jquery-ui.min.js"></script>
+<script src="shop/js/fotorama.js"></script>
+<script src="shop/js/jquery.magnific-popup.js"></script>
+<script src="shop/js/owl.carousel.min.js"></script>
+<script src="shop/js/custom.js"></script>
 
 <script type="text/javascript">
 
