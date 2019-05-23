@@ -524,17 +524,17 @@
                                 </div>
                                 <div class="mobilemenu-content">
                                     <ul class="nav navbar-nav" id="menu-main">
-                                        <li class="active">
-                                            <a href="index.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html"><span>Home</span></a>
+                                        <li class="{{ \Request::is('/') ? 'active' : '' }}">
+                                            <a href="/" tppabs="http://aaryaweb.info/html/stylexpo/stx004/index.html"><span>Home</span></a>
+                                        </li>
+                                        <li class="{{ \Request::is('shop1') ? 'active' : '' }}">
+                                            <a href="/shop1" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Shop</span></a>
+                                        </li>
+                                        <li class="{{ \Request::is('cart') ? 'active' : '' }}">
+                                            <a href="/cart" tppabs="http://aaryaweb.info/html/stylexpo/stx004/about.html"><span>Cart</span></a>
                                         </li>
                                         <li>
-                                            <a href="shop.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/shop.html"><span>Shop</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="about.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/about.html"><span>About Us</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="blog.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/blog.html"><span>Blog</span></a>
+                                            <a href="/product" tppabs="http://aaryaweb.info/html/stylexpo/stx004/blog.html"><span>Product</span></a>
                                         </li>
                                         <li>
                                             <a href="contact.html" tppabs="http://aaryaweb.info/html/stylexpo/stx004/contact.html"><span>Contact</span></a>

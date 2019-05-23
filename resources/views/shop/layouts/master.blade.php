@@ -3,15 +3,6 @@
 <html lang="en">
 <!--<![endif]-->
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="//googletagmanager.com/gtag/js-id=UA-109718537-1.js" tppabs="https://www.googletagmanager.com/gtag/js?id=UA-109718537-1"></script>
-    <script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'UA-109718537-1');
-    </script>
     <!-- Basic Page Needs
       ================================================== -->
     <meta charset="utf-8">
@@ -49,7 +40,7 @@
     @yield('__css')
 
 </head>
-<body class="homepage">
+<body >
 <div class="se-pre-con"></div>
 <div id="newslater-popup" class="mfp-hide white-popup-block open align-center">
     <div class="nl-popup-main">
@@ -69,7 +60,7 @@
 <div class="main">
 
     <!-- HEADER START -->
-        @include('shop.layouts.header')
+    @include('shop.layouts.header')
     <!-- HEADER END -->
 
 
@@ -82,10 +73,10 @@
 
 
     <!-- FOOTER START -->
-        @include('shop.layouts.footer')
+    @include('shop.layouts.footer')
     <!-- FOOTER END -->
 </div>
-<script src="shop/js/jquery-1.12.3.min.js"></script>
+<script src="shop/js/jquery-1.12.3.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery-1.12.3.min.js"></script>
 <script src="shop/js/tether.min.js" tppabs="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 <script src="shop/js/bootstrap.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/bootstrap.min.js"></script>
 <script src="shop/js/jquery.downCount.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/jquery.downCount.js"></script>
@@ -95,16 +86,15 @@
 <script src="shop/js/owl.carousel.min.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/owl.carousel.min.js"></script>
 <script src="shop/js/custom.js" tppabs="http://aaryaweb.info/html/stylexpo/stx004/js/custom.js"></script>
 
-<script>
-	/* ------------ Newslater-popup JS Start ------------- */
-	$(window).load(function() {
-		$.magnificPopup.open({
-			items: {src: '#newslater-popup'},type: 'inline'}, 0);
-	});
-	/* ------------ Newslater-popup JS End ------------- */
+<script type="text/javascript">
+
+	if($("#homeContent").hasClass("home-content")){
+		$("body").addClass("homepage");
+	}
+
 </script>
 
-    @yield('__js')
+@yield('__js')
 
 </body>
 </html>

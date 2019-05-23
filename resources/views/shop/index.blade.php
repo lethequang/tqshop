@@ -1,6 +1,6 @@
 @extends('shop.layouts.master')
 @section('content')
-<section class="main-wrap">
+<section class="main-wrap home-content" id="homeContent">
 	<!-- BANNER STRAT -->
 	<section class="banner-mobile">
 		<div class="banner">
@@ -1221,4 +1221,15 @@
 		</div>
 	</div>
 </section>
+@endsection
+
+@section('__js')
+<script>
+		/* ------------ Newslater-popup JS Start ------------- */
+		$(window).load(function() {
+			$.magnificPopup.open({
+				items: {src: '#newslater-popup'},type: 'inline'}, 0);
+		});
+		/* ------------ Newslater-popup JS End ------------- */
+	</script>
 @endsection
