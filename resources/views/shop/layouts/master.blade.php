@@ -88,6 +88,7 @@
 
 <script type="text/javascript">
 
+    // Mặc định dropdown menu category xuống nếu là trang chủ
 	if($("#homeContent").hasClass("home-content")){
 		$("body").addClass("homepage");
 	}

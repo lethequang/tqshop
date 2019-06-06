@@ -11,9 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-	return view('shop.index');
-});
 
 Route::get('shop1', function () {
 	return view('shop.shop');
@@ -25,3 +22,4 @@ Route::get('cart', function () {
 Route::get('product', function () {
 	return view('shop.product-page');
 });
+Route::get('/', ['uses' => 'Shop\HomeController@index' , 'as' => 'shop.home']);
