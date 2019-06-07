@@ -20,18 +20,41 @@ class Product extends Model
 	 */
 	protected $fillable = ['name', 'description', 'content', 'price', 'promotion_price', 'quantity', 'category_id', 'brand_id', 'slug', 'status', 'is_hot', 'is_deleted', 'created_by', 'updated_by'];
 
-	public function buildQuery($scope) {
-		return self::select($scope)
-			->leftJoin('product_categories', "{$this->table}.category_id", 'product_categories.id')
-			->leftjoin('brands', "{$this->table}.brand_id", 'brands.id');
+
+	public function images()
+	{
+		return $this->hasMany(ProductImage::class);
 	}
 
-	public function getNewProducts() {
-		$scope = ['products.*', 'product_categories.name', 'brands.name'];
+	public function buildQuery($scope) {
+		return self::select($scope)
+			->leftJoin('product_images', "{$this->table}.id", 'product_images.product_id');
+	}
 
-		$products = $this->buildQuery($scope)->where("{$this->table}.is_hot", 1);
+	public function getProducts($filters) {
+		$scope = ['products.*'];
 
-		return $products->get();
+		$products = $this->buildQuery($scope);
+
+		return $this->responseResult($products, $filters);
+	}
+
+	public function responseResult($result, $filters) {
+		$take = ! (isset($inputs['limit'])) ? 10 : $filters['limit'];
+		$skip = ! (isset($inputs['offset'])) ? 0 : $filters['offset'];
+		$order = ! (isset($inputs['order'])) ? 'desc' : $filters['order'];
+		$sort = ! (isset($inputs['sort'])) ? 'id' : $filters['sort'];
+
+		$total = $result->count();
+		$data = $result->skip($skip)
+			->take($take)
+			->orderBy($sort, $order)
+			->get();
+
+		return [
+			'total' => $total,
+			'data' => $data
+		];
 	}
 
 }

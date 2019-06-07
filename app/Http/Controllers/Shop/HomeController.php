@@ -23,8 +23,12 @@ class HomeController extends Controller
 	}
 
 	public function index() {
-		$this->data['product'] = $this->product->getNewProducts();
-		dd($this->data);
-    	return view('shop.index');
+		$filters = [
+			'limit' => 10,
+			'sort' => 'created_at'
+		];
+		$newProducts = $this->product->getProducts($filters);
+
+		return $newProducts;
 	}
 }
