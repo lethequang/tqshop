@@ -3,6 +3,7 @@
 namespace App\Http\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\DB;
 
 class Product extends Model
 {
@@ -26,26 +27,100 @@ class Product extends Model
 		return $this->hasMany(ProductImage::class);
 	}
 
+	/*
+	 * Scope status
+	 */
+	public function scopeActive($query, $status = 1) {
+		return $query->where("{$this->table}.status", $status);
+	}
+
+	/*
+	 * Scope is'n hot
+	 */
+	public function scopeIsHot($query, $isHot = 0) {
+		return $query->where("{$this->table}.is_hot", $isHot);
+	}
+
+	/*
+	 * Scope is'n deleted
+	 */
+	public function scopeIsDeleted($query, $isDeleted = 0) {
+		return $query->where("{$this->table}.is_deleted", $isDeleted);
+	}
+
+	public function scopeIsPromotion($query) {
+		return $query->whereNotNull("{$this->table}.promotion_price");
+	}
+
+	/*
+	 * Start query
+	 */
 	public function buildQuery($scope) {
 		return self::select($scope)
 			->leftJoin('product_images', "{$this->table}.id", 'product_images.product_id');
 	}
 
-	public function getProducts($filters) {
-		$scope = ['products.*'];
+	/*
+	 * Get list products
+	 */
+	public function getProductsForFilter($filters) {
+		$promotionRatio = DB::raw('(price - promotion_price) * 100 / price as promotion_ratio');
+		$scope = ['products.*', $promotionRatio];
 
-		$products = $this->buildQuery($scope);
+		$products = $this->buildQuery($scope)
+			->active()
+			->isDeleted()
+			->with('images')
+			->groupBy('products.id');
+
+		if (isset($filters['is_promotion'])) {
+			$products->isPromotion();
+		}
 
 		return $this->responseResult($products, $filters);
+
 	}
 
-	public function responseResult($result, $filters) {
-		$take = ! (isset($inputs['limit'])) ? 10 : $filters['limit'];
-		$skip = ! (isset($inputs['offset'])) ? 0 : $filters['offset'];
-		$order = ! (isset($inputs['order'])) ? 'desc' : $filters['order'];
-		$sort = ! (isset($inputs['sort'])) ? 'id' : $filters['sort'];
+	/*
+	 * Get top new product
+	 */
+	public function getNewProducts() {
 
-		$total = $result->count();
+		$filters = [
+			'limit' => 10,
+		];
+
+		$newProducts = $this->getProductsForFilter($filters);
+
+		return $newProducts;
+	}
+
+	/*
+	 * Get top best seller product
+	 */
+	public function getBestSellerProducts() {
+
+		$filters = [
+			'limit' => 10,
+			'is_promotion' => 1,
+			'sort' => 'promotion_ratio'
+		];
+
+		$bestSellerProducts = $this->getProductsForFilter($filters);
+
+		return $bestSellerProducts;
+	}
+
+	/*
+	 * Format result
+	 */
+	public function responseResult($result, $filters) {
+		$take = ! (isset($filters['limit'])) ? 10 : $filters['limit'];
+		$skip = ! (isset($filters['offset'])) ? 0 : $filters['offset'];
+		$order = ! (isset($filters['order'])) ? 'desc' : $filters['order'];
+		$sort = ! (isset($filters['sort'])) ? 'created_at' : $filters['sort'];
+
+		$total = $result->get()->count();
 		$data = $result->skip($skip)
 			->take($take)
 			->orderBy($sort, $order)

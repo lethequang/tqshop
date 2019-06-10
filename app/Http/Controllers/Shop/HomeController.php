@@ -19,16 +19,14 @@ class HomeController extends Controller
 	public function __construct(Product $product)
 	{
 		$this->product = $product;
-
 	}
 
 	public function index() {
-		$filters = [
-			'limit' => 10,
-			'sort' => 'created_at'
-		];
-		$newProducts = $this->product->getProducts($filters);
-
-		return $newProducts;
+		$this->data['newProducts'] = $this->product->getNewProducts();
+		$this->data['bestSellerProducts'] = $this->product->getBestSellerProducts();
+		return $this->data;
+//		return view('shop.index', $this->data);
 	}
+
+
 }
