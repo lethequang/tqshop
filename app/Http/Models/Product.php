@@ -100,6 +100,9 @@ class Product extends Model
 	 */
 	public function getBestSellerProducts() {
 
+	}
+
+	public function getTopPromotionProducts() {
 		$filters = [
 			'limit' => 10,
 			'is_promotion' => 1,

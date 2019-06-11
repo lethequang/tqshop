@@ -23,7 +23,7 @@ class HomeController extends Controller
 
 	public function index() {
 		$this->data['newProducts'] = $this->product->getNewProducts();
-		$this->data['bestSellerProducts'] = $this->product->getBestSellerProducts();
+		$this->data['topPromotionProducts'] = $this->product->getTopPromotionProducts();
 		return $this->data;
 //		return view('shop.index', $this->data);
 	}
