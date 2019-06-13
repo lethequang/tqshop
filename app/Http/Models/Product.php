@@ -22,9 +22,12 @@ class Product extends Model
 	protected $fillable = ['name', 'description', 'content', 'price', 'promotion_price', 'quantity', 'category_id', 'brand_id', 'slug', 'status', 'is_hot', 'is_deleted', 'created_by', 'updated_by'];
 
 
-	public function images()
-	{
+	public function images() {
 		return $this->hasMany(ProductImage::class);
+	}
+
+	public function orderDetail() {
+		return $this->hasMany(OrderDetail::class);
 	}
 
 	/*
@@ -68,6 +71,7 @@ class Product extends Model
 		$products = $this->buildQuery($scope)
 			->active()
 			->isDeleted()
+			->withCount('orderDetail')
 			->with('images')
 			->groupBy('products.id');
 
@@ -94,14 +98,9 @@ class Product extends Model
 	 */
 	public function getTopSellerProducts() {
 
-		$countProduct = DB::raw('count(order_detail.product_id)');
-		$scope = ['products.*', $countProduct];
+		$scope = ['products.*'];
 
-		$filters = [
-			'sort' => $countProduct
-		];
-
-		return $this->getProductsForFilter($scope, $filters);
+		return $this->getProductsForFilter($scope);
 	}
 
 
