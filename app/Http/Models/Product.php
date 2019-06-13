@@ -57,16 +57,14 @@ class Product extends Model
 	 */
 	public function buildQuery($scope) {
 		return self::select($scope)
-			->leftJoin('product_images', "{$this->table}.id", 'product_images.product_id');
+			->leftJoin('product_images', "{$this->table}.id", 'product_images.product_id')
+			->leftJoin('order_detail', "{$this->table}.id", 'order_detail.product_id');
 	}
 
 	/*
 	 * Get list products
 	 */
-	public function getProductsForFilter($filters) {
-		$promotionRatio = DB::raw('(price - promotion_price) * 100 / price as promotion_ratio');
-		$scope = ['products.*', $promotionRatio];
-
+	public function getProductsForFilter($scope, $filters = false) {
 		$products = $this->buildQuery($scope)
 			->active()
 			->isDeleted()
@@ -82,36 +80,45 @@ class Product extends Model
 	}
 
 	/*
-	 * Get top new product
+	 * Get top new products
 	 */
-	public function getNewProducts() {
+	public function getTopNewProducts() {
 
-		$filters = [
-			'limit' => 10,
-		];
+		$scope = ['products.*'];
 
-		$newProducts = $this->getProductsForFilter($filters);
-
-		return $newProducts;
+		return $this->getProductsForFilter($scope);
 	}
 
 	/*
-	 * Get top best seller product
+	 * Get top seller products
 	 */
-	public function getBestSellerProducts() {
+	public function getTopSellerProducts() {
 
+		$countProduct = DB::raw('count(order_detail.product_id)');
+		$scope = ['products.*', $countProduct];
+
+		$filters = [
+			'sort' => $countProduct
+		];
+
+		return $this->getProductsForFilter($scope, $filters);
 	}
 
+
+	/*
+	 * get top promotion products
+	 */
 	public function getTopPromotionProducts() {
+
+		$promotionRatio = DB::raw('(price - promotion_price) * 100 / price as promotion_ratio');
+		$scope = ['products.*', $promotionRatio];
+
 		$filters = [
-			'limit' => 10,
 			'is_promotion' => 1,
 			'sort' => 'promotion_ratio'
 		];
 
-		$bestSellerProducts = $this->getProductsForFilter($filters);
-
-		return $bestSellerProducts;
+		 return $this->getProductsForFilter($scope, $filters);
 	}
 
 	/*
