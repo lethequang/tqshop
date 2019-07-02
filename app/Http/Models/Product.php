@@ -100,7 +100,11 @@ class Product extends Model
 
 		$scope = ['products.*'];
 
-		return $this->getProductsForFilter($scope);
+		$filters = [
+			'sort' => 'order_detail_count'
+		];
+
+		return $this->getProductsForFilter($scope, $filters);
 	}
 
 
