@@ -25,6 +25,7 @@ class HomeController extends Controller
 		$this->data['topNewProducts'] = $this->product->getTopNewProducts();
 		$this->data['topPromotionProducts'] = $this->product->getTopPromotionProducts();
 		$this->data['topSellerProducts'] = $this->product->getTopSellerProducts();
+		$this->data['topProductCategories'] = $this->product->getTopProductCategories();
 		return $this->data;
 //		return view('shop.index', $this->data);
 	}

@@ -30,6 +30,9 @@ class Product extends Model
 		return $this->hasMany(OrderDetail::class);
 	}
 
+	public function productCategory() {
+		return $this->belongsTo(ProductCategory::class);
+	}
 	/*
 	 * Scope status
 	 */
@@ -61,6 +64,7 @@ class Product extends Model
 	public function buildQuery($scope) {
 		return self::select($scope)
 			->leftJoin('product_images', "{$this->table}.id", 'product_images.product_id')
+			->leftJoin('product_categories', "{$this->table}.category_id", 'product_categories.id')
 			->leftJoin('order_detail', "{$this->table}.id", 'order_detail.product_id');
 	}
 
@@ -81,6 +85,24 @@ class Product extends Model
 
 		return $this->responseResult($products, $filters);
 
+	}
+
+	public function getTopProductCategories() {
+
+		$categoryCount = DB::raw('count(order_detail.product_id) as order_category_count');
+		$scope = ['product_categories.*', $categoryCount];
+
+		$products = self::select($scope)
+			->rightJoin('product_categories', "{$this->table}.category_id", 'product_categories.id')
+			->leftJoin('order_detail', "{$this->table}.id", 'order_detail.product_id')
+			->where('parent_id', '<>', 0)
+			->groupBy('product_categories.id');
+
+		$filters = [
+			'sort' => 'order_category_count'
+		];
+
+		return $this->responseResult($products, $filters);
 	}
 
 	/*
@@ -106,7 +128,6 @@ class Product extends Model
 
 		return $this->getProductsForFilter($scope, $filters);
 	}
-
 
 	/*
 	 * get top promotion products
